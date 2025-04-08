@@ -1,425 +1,1035 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
-body{
-p{
-font-size: 25px;
-}
-h1{
-font-size:90px;
-font-family: Poppins;
-}
-h2{
-    font-size:50px;
-    font-family: Poppins;
-}
-h3{
-    font-size: 30px;
-    font-family: Poppins;
-}
-overflow-x: auto;
+
+body {
+    p {
+        font-size: 25px;
+        line-height: 50px;
+        font-family: Roboto;
+    }
+
+    h1 {
+        font-size: 80px;
+        font-family: Poppins;
+    }
+
+    h2 {
+        font-size: 50px;
+        font-family: Poppins;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-family: Poppins;
+    }
+
+    overflow-x: auto;
 
 }
+
 @font-face {
     font-family: Roboto;
     src: url(Fonts/Roboto-VariableFont_wdth\,wght.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: Poppins;
-    src:url(Fonts/Poppins-Light.ttf);
+    src: url(Fonts/Poppins-Light.ttf);
 }
-#intro{
-    background-color:#68ad68;
-    text-align:center;
-    color:white;
+
+#intro {
+    background-color: #68ad68;
+    text-align: center;
+    color: white;
+    padding: 1.5% 0;
 }
-.home-page{
+
+.home-page {
     background: url(https://i.pinimg.com/736x/95/e7/53/95e753a1edcbf95950f3ac7a6c27fd8e.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Roboto;
-    position:relative;
-    color:white;
-    padding:30%;
-    nav{
-        color:white;
-        display:flex;
+    position: relative;
+    color: white;
+    padding: 30%;
+
+    nav {
+        color: white;
+        display: flex;
         justify-content: space-around;
-        #brand-name{
-            font-size:30px;
-            font-weight:bold;
+
+        #brand-name {
+            font-size: 30px;
+            font-weight: bold;
         }
-        a{
+
+        a {
             text-decoration: none;
-            color:white;
-            font-size:20px;
-    
+            color: white;
+            font-size: 20px;
+
+        }
+
+        i {
+            font-size: 30px;
         }
     }
-  
-    .invitation-overlay{
+
+    .invitation-overlay {
         position: absolute;
-        top:0%;
-        right:0%;
+        top: 0%;
+        right: 0%;
         background-color: rgba(0, 0, 0, 0.5);
-       width:100%;
-       height:100%;
-       padding:2% 0;
+        width: 100%;
+        height: 100%;
+        padding: 2% 0;
 
-      .invitation{
-        margin:auto;
-        
-      
-       h1{
-        width:70%;
-        margin:7% auto;
-    }
-    p{
-        width:40%;
-        margin:2% auto;
-    }
-       
+        .invitation {
+            margin: auto;
 
-      }
-      button{
-        border-radius:7px;
-        padding:1.5%;
-        width:10%;
-        margin-top:3%;
-        background-color: #00000000;
-        color:white;
-        box-shadow: 1px 2px 2px black;
-        cursor: pointer;
-        font-size:25px;
-       
-      }
-    
+
+            h1 {
+                width: 70%;
+                margin: 7% auto;
+                font-size: 90px;
+
+            }
+
+            p {
+                width: 40%;
+                margin: 2% auto;
+
+            }
+
+
+        }
+
+        button {
+            border-radius: 7px;
+            padding: 1.5%;
+            width: 10%;
+            margin-top: 3%;
+            background-color: #00000000;
+            color: white;
+            box-shadow: 1px 2px 2px black;
+            cursor: pointer;
+            font-size: 25px;
+
+        }
+
     }
 }
-.invitation{
+
+.invitation {
     margin: auto;
     text-align: center;
 }
-.promotion{
-    margin:2% auto;
 
-#rate{
-    text-align: center;
-    font-size:50px;
-    font-family: Poppins;
-}
+.promotion {
+    margin: 2% auto;
 
-}
-.printing{
-display:flex;
-gap:70px;
-padding:2% 0;
-margin-left:5%;
-
-.living-room img{
-width:90%;
-
-margin-left:3%;
-border-radius: 1%;
-box-shadow:black 0px 10px 20px 2px;
-}
-.about-printing{
-width:50%;
-h2{
-    width:80%;
-}
-}
-.promotion{
-    margin:5% auto;
-}
-p:first-child{
-    color:#68ad68;
-
-}
-button{
-    border-radius: 30px;
-    padding:3% 4%;
-    margin-top:8%;
-    font-size:30px;
-
-}
-#pointer{
-     rotate:-30deg;
-   
-}
-#pointer-nxt{
-    rotate:-30deg;
-
-}
-}
-.know-more{
-background-color: #68ad68;
-color:white;
-margin-right:5%;
-}
-.contact-us{
-color:black;
-}
-.offers{
-    padding:4% 0;
-    display:flex;
-  justify-content: space-around;
-background-color: #E7EFE1;
-justify-items: center;
-i{
-   font-size:250%;
-  gap:3%;
-
-}
-
-}
-.offers .quality{
-    display:flex;
-    align-items: center;
-  
-}
-.offers .warranty{
-    display:flex;
-    align-items: center;
-    
-}
-.offers .time-efficiency{
-    display:flex;
-    align-items: center;
-}
-.offers .artistry{
-    display:flex;
-    align-items: center;
-}
-.offers>p{
-color:gray;
-}
-.print-technique{
-    text-align: center;
-    padding:5% 0;
-    p{
-        
-        width:50%;
-  margin:0 auto;
+    #rate {
+        text-align: center;
+        font-size: 50px;
+        font-family: Poppins;
+        padding: 2% 0;
     }
-    
+
 }
-.printing-techniques{
-    display:flex;
-    gap:7%;
-    margin:0 auto;
-   
-  .fa-solid{
-    padding:5%;
-    border-radius: 100px;
-    background-color: antiquewhite;
-    cursor:pointer;
-    font-size:150%;
-   
-  }
-  #paint-technique{
-   
-    width:95%;
-    border-radius: 2%;
-  }
-  #textile{
-    width:70%;
-    border-radius: 2%;
-  }
-  #machine-technique{
-    width:71%;
-    border-radius: 2%;
-  }
-  .textile-printing{
-    position: relative;
-  }
-  #next-btn{
-    position: absolute;
-    top:65%;
-    right:2%;
 
-  }
-  .screen-printing{
-    position:relative;
-  }
-  #textile{
-    
-  }
- }
- .our-clients{
-    margin:5% 0;
-    text-align:center ;
-    p{
-        width:60%;
-        margin:0 auto;
-    }
- }
-.client-praise{
-    margin:5% 0;
-    display:flex;
-    gap:10%;
-    .companies{
-        text-decoration: none;
-        color:black;
+.printing {
+    display: flex;
+    gap: 70px;
+    padding: 2% 0;
+    margin-left: 5%;
 
-    }
-    .companies:hover{
-        box-shadow:4px 4px 4px black;
-    }
-    .aditya-industry{
-       display:flex;
-   
-       img{
-        width:40%;
-        border-radius: 30px;
-        margin:0 8%;
+    .living-room img {
+        width: 95%;
 
-      
-
-       }
+        margin-left: 3%;
+        border-radius: 1%;
+        box-shadow: black 0px 10px 20px 2px;
     }
-    .arvind-ltd{
-        display:flex;
-        img{
-width:25%;
-border-radius: 30px;
-margin-right:8%;
+
+    .about-printing {
+        width: 50%;
+
+        h2 {
+            width: 80%;
         }
-       
     }
-.raymond-industry{
-    display:flex;
-    align-items:center;
-    img{width:40%;
-        border-radius: 30px;
-        margin-right:3%;
+
+    .promotion {
+        margin: 5% auto;
+    }
+
+    p:first-child {
+        color: #68ad68;
+
+    }
+
+    button {
+        border-radius: 100px;
+        padding: 3% 4%;
+        margin-top: 8%;
+        font-size: 30px;
+
+    }
+
+    #pointer {
+        rotate: -30deg;
+
+    }
+
+    #pointer-nxt {
+        rotate: -30deg;
+
+    }
+}
+
+.know-more {
+    background-color: #68ad68;
+    color: white;
+    margin-right: 5%;
+    border: none;
+}
+
+.contact-us {
+    color: black;
+}
+
+.offers {
+    padding: 4% 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #E7EFE1;
+    justify-items: center;
+
+    i {
+        font-size: 250%;
+
+    }
+
+    p {
+        color: rgb(104, 100, 100);
+    }
+}
+
+.offers .quality {
+    display: flex;
+    align-items: center;
+
+    .fa-solid {}
+
+}
+
+.offers .warranty {
+    display: flex;
+    align-items: center;
+
+}
+
+.offers .time-efficiency {
+    display: flex;
+    align-items: center;
+}
+
+.offers .artistry {
+    display: flex;
+    align-items: center;
+}
+
+.offers>p {
+    color: gray;
+}
+
+.print-technique {
+    text-align: center;
+    padding: 5% 0;
+
+    p {
+        color: rgb(104, 100, 100);
+        width: 45%;
+        margin: 0 auto;
+    }
+
+}
+
+.printing-techniques {
+    display: flex;
+    gap: 7%;
+    margin: 0 auto;
+
+    .fa-solid {
+        padding: 5%;
+        border-radius: 100px;
+        background-color: antiquewhite;
+        cursor: pointer;
+        font-size: 150%;
+
+    }
+
+    h2 {
+        width: 85%;
+    }
+
+    p {
+        color: rgb(104, 100, 100);
+    }
+
+    #paint-technique {
+
+        width: 95%;
+        border-radius: 2%;
+    }
+
+    #textile {
+        width: 70%;
+        border-radius: 2%;
+    }
+
+    #machine-technique {
+        width: 71%;
+        border-radius: 2%;
+    }
+
+    .textile-printing {
+        position: relative;
+    }
+
+    #next-btn {
+        position: absolute;
+        top: 60%;
+        right: 2%;
+
+    }
+
+    .screen-printing {
+        position: relative;
+    }
+
+    #next-pointer {
+        position: absolute;
+        top: 60%;
+        right: 1%;
+    }
+
+    .process-printing {
+        position: relative;
+    }
+
+    #next-button {
+        position: absolute;
+        top: 60%;
+        right: 1%;
+    }
+}
+
+.our-clients {
+    margin: 5% 0;
+    text-align: center;
+
+    p {
+        width: 70%;
+        margin: 0 auto;
+        color: #353C40;
+    }
+}
+
+.client-praise {
+    margin: 5% 0;
+    display: flex;
+    gap: 10%;
+
+    .companies {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .companies:hover {
+        box-shadow: 4px 4px 4px black;
+    }
+
+    .aditya-industry {
+        display: flex;
+
+        img {
+            width: 40%;
+            border-radius: 30px;
+            margin: 0 8%;
+
+
+
+        }
+    }
+
+    .arvind-ltd {
+        display: flex;
+
+        img {
+            width: 25%;
+            border-radius: 30px;
+            margin-right: 8%;
+        }
+
+    }
+
+    .raymond-industry {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 40%;
+            border-radius: 30px;
+            margin-right: 3%;
+
+
+        }
+    }
+}
+
+.partnerships {
+    margin: 2% 0;
+    padding: 4%;
+    background-color: #E7EFE1;
+
+    img {
+        margin-right: 1.2%;
+    }
+
+    img:nth-child(1) {
+        width: 10%;
+    }
+
+    img:nth-child(2) {
+        width: 10%;
+    }
+
+    img:nth-child(3) {
+        width: 19%;
+    }
+
+    img:nth-child(4) {
+        width: 15%;
+    }
+
+    img:nth-child(5) {
+        width: 10%;
+    }
+
+    img:nth-child(6) {
+        width: 10%;
+    }
+
+    img:nth-child(7) {
+        width: 15%;
+    }
+}
+
+.our-works {
+    display: flex;
+    gap: 30px;
+    margin-left: 5%;
+
+    img {
+        border-radius: 10px;
+        width: 28.5%;
 
 
     }
 }
-}
-.partnerships{
-    margin:2% 0;
-    padding:4%;
-background-color:#E7EFE1 ;
-img{
-    margin-right:1.2%;
-}
-    img:nth-child(1){width:10%;}
-    img:nth-child(2){width:10%;} 
-    img:nth-child(3){width:19%;}
-    img:nth-child(4){width:15%;}
-    img:nth-child(5){width:10%;}
-    img:nth-child(6){width:10%;}
-    img:nth-child(7){width:15%;}
-}
-.our-works{
-display:flex;
-gap:30px;
-margin-left:5%;
-img{
-    border-radius: 10px;
-    width:28.5%;
 
+.quality-check {
+    display: flex;
+    gap: 10%;
+    margin: 0 5%;
 
-}
-}
-.quality-check{
-    display:flex;
-    gap:3%;
-    margin:0 5%;
-    .partner-testimony{
-width:50%;
+    .partner-testimony {
+        width: 40%;
+
+        p {
+            color: #353C40;
+        }
+
+        address {
+            color: #353C40;
+            font-size: 20px;
+        }
     }
-    #cushion{
-        width:40%;
+
+    #cushion {
+        width: 40%;
         border-radius: 20px;
     }
-    .icons{
-        color:#ADEBB3;
-      
+
+    .icons {
+        color: #ADEBB3;
+        margin: 5% 0;
+
+        i {
+            margin: 0 1%;
+            font-size: 200%;
+        }
     }
 }
-.showcase-works{
+
+.showcase-works {
     text-align: center;
-    padding-top:5%;
-    p{
-        width:50%;
-  margin-left:25%;
+    padding: 5% 0;
+
+    p {
+        width: 50%;
+        margin-left: 25%;
+        color: #353C40;
     }
 }
-#scarf{
-    width:85%;
-   margin:3% 5%;
-   border-radius: 10px;
+
+#scarf {
+    width: 85%;
+    margin: 3% 5%;
+    border-radius: 10px;
 }
-.reachout-info{
+
+.reachout-info {
     text-align: center;
-  
-    p{
-        width:50%;
-        margin:0 auto;
+    margin: 5% 0;
+
+    p {
+        width: 60%;
+        margin: 0 auto;
+        color: #353C40;
     }
- 
+
 }
-.location{
+
+.location {
     position: relative;
-    margin:5% 0;
-    img{
-        width:100%;
+    margin: 5% 0;
+
+    img {
+        width: 100%;
     }
 }
-.contact-info{
+
+.contact-info {
     position: absolute;
-    top:30%;
-    left:5%;
-    color:black;
+    top: 20%;
+    left: 10%;
+    color: black;
     background-color: white;
-    box-shadow:5px 5px 8px black;
-    width:30%;
-    padding-left:2%;
-    .fa-solid{
-        padding:2%;
+    box-shadow: 5px 5px 8px black;
+    width: 35%;
+    padding: 5% 1%;
+
+    .fa-solid {
+        padding: 5%;
         background-color: black;
-        border-radius:10px;
-        color:white;
-        cursor:pointer;
+        border-radius: 100px;
+        color: white;
+        cursor: pointer;
+    }
+
+    p {
+        color: #353C40;
+    }
+
+    h2 {
+        margin-bottom: 5%;
     }
 }
-.phone-contact{
-    display:flex;
+
+.address {
+    display: flex;
+    gap: 15%;
+    margin-bottom: 5%;
 }
 
-footer{
-    margin-top:20%;
-    color:white;
+.phone-contact {
+    display: flex;
+    gap: 15%;
+    margin-bottom: 5%;
+
+}
+
+.opening-hours {
+    display: flex;
+    gap: 15%;
+    margin-bottom: 5%;
+}
+
+footer {
+    margin-top: 20%;
+    color: white;
     background-color: #353C40;
-    padding:2% 1% ;
-    
-   .rasi-history{
-    width:30%;
- 
-   }
-    .footer-elements{
-        display:flex;
-      gap:5%;
-    }
-    img{
-        width:15%;
-        border-radius:30px;
+    padding: 3% 4%;
+
+    p {
+        font-size: 18px;
+        line-height: 35px;
     }
 
-    .office{
-        display:flex;
+    .rasi-history {
+        width: 30%;
+
+    }
+
+    .footer-elements {
+        display: flex;
+        gap: 5%;
+        margin-bottom: 5%;
+    }
+
+    img {
+        width: 15%;
+        border-radius: 30px;
+    }
+
+    .office {
+        display: flex;
         justify-content: space-between;
     }
-.address-location{
-    width:60%;
-}
-    #copyright{
-        padding:3%;
-        border-top:solid 2px ;
+
+    .address-location {
+        width: 60%;
+    }
+
+    #copyright {
+        padding: 3%;
+        border-top: solid 2px;
         text-align: center;
+    }
+}
+
+/* Media Query for 300px–500px (Small Mobile Devices) */
+@media (min-width: 300px) and (max-width: 500px) {
+    p {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    #intro {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .home-page {
+        min-height: 80vh;
+        padding: 0;
+    }
+
+    .home-page nav {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    #brand-name {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .home-page nav a {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    .invitation-overlay {
+        padding: 10px;
+    }
+
+    .invitation h1 {
+        width: 90%;
+        margin: 10% auto;
+        font-size: 28px;
+    }
+
+    .invitation p {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .invitation button {
+        width: 40%;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .promotion {
+        margin: 10% auto;
+    }
+
+    #rate {
+        font-size: 24px;
+    }
+
+    .printing {
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 0;
+        padding: 5%;
+    }
+
+    .living-room img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .about-printing {
+        width: 100%;
+    }
+
+    .about-printing h2 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .about-printing button {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+
+    .offers {
+        flex-direction: column;
+        padding: 5%;
+        gap: 20px;
+    }
+
+    .offers i {
+        font-size: 150%;
+    }
+
+    .print-technique {
+        padding: 10%;
+    }
+
+    .print-technique p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .printing-techniques {
+        flex-direction: column;
+        gap: 20px;
+        padding: 5%;
+    }
+
+    .printing-techniques .fa-solid {
+        font-size: 100%;
+        padding: 10px;
+    }
+
+    .our-clients {
+        margin: 10% 0;
+    }
+
+    .our-clients p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .client-praise {
+        flex-direction: column;
+        gap: 20px;
+        padding: 5%;
+    }
+
+    .client-praise .aditya-industry img,
+    .client-praise .arvind-ltd img,
+    .client-praise .raymond-industry img {
+        width: 30%;
+        margin: 0 5%;
+    }
+
+    .partnerships {
+        padding: 5%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .partnerships img {
+        width: 20% !important;
+        margin-right: 0;
+    }
+
+    .quality-check {
+        flex-direction: column;
+        gap: 20px;
+        margin: 0;
+        padding: 5%;
+    }
+
+    .partner-testimony {
+        width: 100%;
+    }
+
+    #cushion {
+        width: 100%;
+    }
+
+    .reachout-info {
+        padding: 10%;
+    }
+
+    .reachout-info p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .location {
+        margin: 10% 0;
+    }
+
+    .contact-info {
+        position: static;
+        width: 100%;
+        padding: 5%;
+        box-shadow: none;
+    }
+
+    footer {
+        margin-top: 10%;
+        padding: 5%;
+    }
+
+    .footer-elements {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-elements img {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .rasi-history {
+        width: 100%;
+    }
+
+    .office {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .address-location {
+        width: 100%;
+    }
+}
+
+/* Media Query for 501px–1024px (Larger Mobile Devices and Tablets) */
+@media (min-width: 501px) and (max-width: 1024px) {
+    p {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    #intro {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .home-page nav {
+        padding: 15px 30px;
+    }
+
+    #brand-name {
+        font-size: 26px;
+    }
+
+    .home-page nav a {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .invitation h1 {
+        width: 80%;
+        margin: 5% auto;
+        font-size: 36px;
+    }
+
+    .invitation p {
+        width: 60%;
+        font-size: 16px;
+    }
+
+    .invitation button {
+        width: 20%;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .promotion {
+        margin: 8% auto;
+    }
+
+    #rate {
+        font-size: 32px;
+    }
+
+    .printing {
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 0;
+        padding: 5%;
+    }
+
+    .living-room img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .about-printing {
+        width: 100%;
+    }
+
+    .about-printing h2 {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .about-printing button {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .offers {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 5%;
+    }
+
+    .offers .quality,
+    .offers .warranty,
+    .offers .time-efficiency,
+    .offers .artistry {
+        width: 45%;
+    }
+
+    .print-technique {
+        padding: 8%;
+    }
+
+    .print-technique p {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .printing-techniques {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 5%;
+    }
+
+    .printing-techniques>div {
+        width: 45%;
+    }
+
+    .our-clients {
+        margin: 8% 0;
+    }
+
+    .our-clients p {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .client-praise {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 5%;
+    }
+
+    .client-praise .aditya-industry,
+    .client-praise .arvind-ltd,
+    .client-praise .raymond-industry {
+        width: 45%;
+    }
+
+    .partnerships {
+        padding: 5%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .partnerships img {
+        width: 15% !important;
+    }
+
+    .quality-check {
+        flex-direction: column;
+        gap: 20px;
+        margin: 0;
+        padding: 5%;
+    }
+
+    .partner-testimony {
+        width: 100%;
+    }
+
+    #cushion {
+        width: 100%;
+    }
+
+    .reachout-info {
+        padding: 8%;
+    }
+
+    .reachout-info p {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .location {
+        margin: 8% 0;
+    }
+
+    .contact-info {
+        width: 50%;
+        padding: 3%;
+    }
+
+    footer {
+        padding: 5%;
+    }
+
+    .footer-elements {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .footer-elements>div {
+        width: 45%;
+    }
+
+    .footer-elements img {
+        width: 20%;
+    }
+
+    .rasi-history {
+        width: 100%;
     }
 }
